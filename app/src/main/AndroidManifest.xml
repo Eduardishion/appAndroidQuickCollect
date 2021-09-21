@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developers.quickcollect">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".presentacion"
+            android:label="@string/title_activity_presentacion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".seleccion"
+            android:label="@string/title_activity_seleccion">
+            <intent-filter>
+                <action android:name="android.intent.action.SELECCION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.PRINCIPAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <!--
+    original
+
+              <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            modificado
+             <activity
+                android:name=".Main"
+                android:label="@string/title_activity_main" >
+                <intent-filter>
+                    <action android:name="ar.gerardoperrucci.pantalladeinicio.PRINCIPAL" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+
+    </application>
+        -->
+
+        <activity
+            android:name=".productosSeleccionados"
+            android:label="@string/title_activity_productos_seleccionados" />
+        <activity
+            android:name=".regristro"
+            android:label="@string/title_activity_regristro" />
+        <activity
+            android:name=".acercade"
+            android:label="@string/title_activity_acercade" />
+        <activity
+            android:name=".vistaProductos"
+            android:label="@string/title_activity_vista_productos" />
+        <activity
+            android:name=".modificaciones"
+            android:label="@string/title_activity_modificaciones" />
+        <activity android:name=".mostrarVentas" />
+        <activity android:name=".verificacion" />
+        <activity android:name=".venta"></activity>
+    </application>
+
+</manifest>
