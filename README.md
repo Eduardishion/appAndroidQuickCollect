@@ -1,5 +1,5 @@
 # appAndroidQuickCollect
-Esta es app hecha en android para la materia computo movil aun muy básica con conexión a base da datos SQLite, donde se hacen las operaciones CRUD de eliminar, guardar, modificar y ver los productos, esta app fue pensada para hacer cobros al instante y llebar un registro de ventas por productos vendidos   
+Esta es un app hecha en android para la materia computo movil aun muy básica con conexión a base da datos SQLite, donde se hacen las operaciones CRUD de eliminar, guardar, modificar y ver los productos, esta app fue pensada para hacer cobros al instante y llebar un registro de ventas por productos vendidos   
 
 A qui algunas capturas:
 
